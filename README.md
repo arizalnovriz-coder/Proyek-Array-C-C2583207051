@@ -77,8 +77,6 @@ gcc main.c -o kantin
 
 ## Pengujian
 
-Setiap skenario di bawah dijalankan dan didokumentasikan dengan tangkapan layar yang tersimpan di folder `screenshots/`.
-
 ### Skenario 1: Tambah Produk
 
 - **Input/Tindakan:** Memasukkan produk baru lewat menu 2.
