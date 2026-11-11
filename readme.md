@@ -54,36 +54,19 @@ int  jumlahProduk;                      // jumlah data aktif
 
 > Sesuaikan bagian ini dengan kode yang benar-benar kamu tulis.
 
-## Petunjuk Kompilasi dan Menjalankan
 
-Prasyarat: compiler GCC terpasang.
-
-**Kompilasi**
-
-```bash
-gcc main.c -o kantin
-```
-
-**Menjalankan**
-
-- Linux / macOS:
-  ```bash
-  ./kantin
-  ```
-- Windows:
-  ```cmd
-  kantin.exe
-  ```
 
 ## Pengujian
 
-### Skenario 1: Tambah Produk
+### 1 Tambah Produk
+
 
 - **Input/Tindakan:** Memasukkan produk baru lewat menu 2.
 - **Hasil yang diharapkan:** Produk muncul dalam daftar.
 - **Keterangan:** (tulis singkat input, proses, dan output yang terlihat)
 
-![Skenario 1](screenshots/01-tambah-produk.png)
+<img width="333" height="181" alt="Screenshot 2026-11-11 141812" src="https://github.com/user-attachments/assets/132a454a-c68a-4b08-8dbb-35828a5afe89" />
+
 
 ### Skenario 2: Transaksi
 
@@ -91,7 +74,8 @@ gcc main.c -o kantin
 - **Hasil yang diharapkan:** Subtotal dan total benar.
 - **Keterangan:** (tulis perhitungan manualmu sebagai pembanding)
 
-![Skenario 2](screenshots/02-transaksi.png)
+<img width="533" height="448" alt="Screenshot 2026-11-11 142024" src="https://github.com/user-attachments/assets/c765f824-c31c-4a1a-82ae-d82a3d6f4b76" />
+
 
 ### Skenario 3: Pembaruan Stok
 
@@ -99,7 +83,8 @@ gcc main.c -o kantin
 - **Hasil yang diharapkan:** Stok dan jumlah terjual berubah.
 - **Keterangan:** (bandingkan stok sebelum dan sesudah)
 
-![Skenario 3](screenshots/03-pembaruan-stok.png)
+<img width="274" height="98" alt="Screenshot 2026-11-11 142112" src="https://github.com/user-attachments/assets/94501366-374d-4994-b24a-9ab83aac9763" />
+
 
 ### Skenario 4: Stok Tidak Cukup
 
@@ -107,7 +92,8 @@ gcc main.c -o kantin
 - **Hasil yang diharapkan:** Transaksi ditolak; stok tetap.
 - **Keterangan:** (tunjukkan pesan penolakan dan stok yang tidak berubah)
 
-![Skenario 4](screenshots/04-stok-tidak-cukup.png)
+<img width="533" height="448" alt="Screenshot 2026-11-11 142024" src="https://github.com/user-attachments/assets/4592dd86-53a2-415b-9a0d-720b4c658365" />
+
 
 ### Skenario 5: Laporan
 
@@ -115,7 +101,8 @@ gcc main.c -o kantin
 - **Hasil yang diharapkan:** Unit, pendapatan, dan produk terlaris benar.
 - **Keterangan:** (cocokkan dengan transaksi yang sudah dilakukan)
 
-![Skenario 5](screenshots/05-laporan.png)
+<img width="460" height="230" alt="Screenshot 2026-11-11 142221" src="https://github.com/user-attachments/assets/bcd09b01-94a4-49a5-8bd0-c8dd17eb32b8" />
+
 
 ### Skenario 6: Pengurutan
 
@@ -123,8 +110,8 @@ gcc main.c -o kantin
 - **Hasil yang diharapkan:** Urutan sesuai ketentuan (harga termurah, terjual terbanyak).
 - **Keterangan:** (tampilkan hasil kedua jenis pengurutan)
 
-![Skenario 6a - Urut harga](screenshots/06a-urut-harga.png)
-![Skenario 6b - Urut terjual](screenshots/06b-urut-terjual.png)
+<img width="448" height="279" alt="Screenshot 2026-11-11 142205" src="https://github.com/user-attachments/assets/e6f82bc8-61c6-4ca8-ba4a-227342ded650" />
+
 
 ### Skenario 7: Pencarian dan Stok
 
@@ -132,8 +119,8 @@ gcc main.c -o kantin
 - **Hasil yang diharapkan:** Hasil dan peringatan tepat.
 - **Keterangan:** (tunjukkan produk yang ditemukan dan daftar stok menipis)
 
-![Skenario 7a - Pencarian](screenshots/07a-pencarian.png)
-![Skenario 7b - Stok menipis](screenshots/07b-stok-menipis.png)
+<img width="434" height="185" alt="Screenshot 2026-11-11 142142" src="https://github.com/user-attachments/assets/53e0e9a1-c682-4cdd-97a7-14e459fac4ad" />
+
 
 ## Struktur Repository
 
