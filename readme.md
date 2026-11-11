@@ -68,7 +68,7 @@ int  jumlahProduk;                      // jumlah data aktif
 <img width="333" height="181" alt="Screenshot 2026-11-11 141812" src="https://github.com/user-attachments/assets/132a454a-c68a-4b08-8dbb-35828a5afe89" />
 
 
-### Skenario 2: Transaksi
+### 2 Transaksi
 
 - **Input/Tindakan:** Membeli beberapa produk lewat menu 4.
 - **Hasil yang diharapkan:** Subtotal dan total benar.
@@ -77,7 +77,7 @@ int  jumlahProduk;                      // jumlah data aktif
 <img width="533" height="448" alt="Screenshot 2026-11-11 142024" src="https://github.com/user-attachments/assets/c765f824-c31c-4a1a-82ae-d82a3d6f4b76" />
 
 
-### Skenario 3: Pembaruan Stok
+### 3 Pembaruan Stok
 
 - **Input/Tindakan:** Menyelesaikan transaksi, lalu membuka daftar produk dan laporan.
 - **Hasil yang diharapkan:** Stok dan jumlah terjual berubah.
@@ -86,7 +86,7 @@ int  jumlahProduk;                      // jumlah data aktif
 <img width="274" height="98" alt="Screenshot 2026-11-11 142112" src="https://github.com/user-attachments/assets/94501366-374d-4994-b24a-9ab83aac9763" />
 
 
-### Skenario 4: Stok Tidak Cukup
+### 4 Stok Tidak Cukup
 
 - **Input/Tindakan:** Membeli melebihi stok.
 - **Hasil yang diharapkan:** Transaksi ditolak; stok tetap.
@@ -95,7 +95,7 @@ int  jumlahProduk;                      // jumlah data aktif
 <img width="533" height="448" alt="Screenshot 2026-11-11 142024" src="https://github.com/user-attachments/assets/4592dd86-53a2-415b-9a0d-720b4c658365" />
 
 
-### Skenario 5: Laporan
+### 5 Laporan
 
 - **Input/Tindakan:** Menampilkan laporan lewat menu 8.
 - **Hasil yang diharapkan:** Unit, pendapatan, dan produk terlaris benar.
@@ -104,7 +104,7 @@ int  jumlahProduk;                      // jumlah data aktif
 <img width="460" height="230" alt="Screenshot 2026-11-11 142221" src="https://github.com/user-attachments/assets/bcd09b01-94a4-49a5-8bd0-c8dd17eb32b8" />
 
 
-### Skenario 6: Pengurutan
+### 6 Pengurutan
 
 - **Input/Tindakan:** Mengurutkan berdasarkan harga dan berdasarkan penjualan lewat menu 7.
 - **Hasil yang diharapkan:** Urutan sesuai ketentuan (harga termurah, terjual terbanyak).
@@ -113,7 +113,7 @@ int  jumlahProduk;                      // jumlah data aktif
 <img width="448" height="279" alt="Screenshot 2026-11-11 142205" src="https://github.com/user-attachments/assets/e6f82bc8-61c6-4ca8-ba4a-227342ded650" />
 
 
-### Skenario 7: Pencarian dan Stok
+### 7 Pencarian dan Stok
 
 - **Input/Tindakan:** Mencari produk lewat menu 6 dan mengecek stok kurang dari 5 lewat menu 9.
 - **Hasil yang diharapkan:** Hasil dan peringatan tepat.
